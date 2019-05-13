@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import { Router } from "react-router-dom";
 import { history } from "./helpers";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <Router history={history}>
