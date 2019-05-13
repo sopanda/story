@@ -17,7 +17,10 @@ import { useToggle } from "../../hooks/toggle";
 
 const Navigation = props => {
   const [isOpen, toggle] = useToggle();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const changeLanguage = lng => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <div className={classes.Navigation}>
@@ -32,9 +35,15 @@ const Navigation = props => {
                   {t("lang")}
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>Polski</DropdownItem>
-                  <DropdownItem>English</DropdownItem>
-                  <DropdownItem>Pусский</DropdownItem>
+                  <DropdownItem onClick={() => changeLanguage("pl")}>
+                    Polski
+                  </DropdownItem>
+                  <DropdownItem onClick={() => changeLanguage("en")}>
+                    English
+                  </DropdownItem>
+                  <DropdownItem onClick={() => changeLanguage("ru")}>
+                    Pусский
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </NavItem>
