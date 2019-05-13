@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { useTranslation } from "react-i18next";
 import {
   Collapse,
   Navbar,
@@ -9,14 +10,17 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-} from 'reactstrap';
-import classes from './Navigation.module.css';
-import { useToggle } from '../../hooks/toggle';
+  DropdownItem
+} from "reactstrap";
+import classes from "./Navigation.module.css";
+import { useToggle } from "../../hooks/toggle";
 
 const Navigation = props => {
-
   const [isOpen, toggle] = useToggle();
+  const { t, i18n } = useTranslation();
+  const changeLanguage = lng => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <div className={classes.Navigation}>
@@ -28,16 +32,16 @@ const Navigation = props => {
             <NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Język
+                  {t("lang")}
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
+                  <DropdownItem onClick={() => changeLanguage("pl")}>
                     Polski
                   </DropdownItem>
-                  <DropdownItem>
+                  <DropdownItem onClick={() => changeLanguage("en")}>
                     English
                   </DropdownItem>
-                  <DropdownItem>
+                  <DropdownItem onClick={() => changeLanguage("ru")}>
                     Pусский
                   </DropdownItem>
                 </DropdownMenu>
