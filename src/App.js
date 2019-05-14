@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import { layout as Layout } from "./hoc/Layout";
+import { layout as Layout } from "./hoc/Layout/Layout";
 
 const App = () => {
   return (
