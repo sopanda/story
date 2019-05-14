@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import { useTranslation } from "react-i18next";
+import { useNewLanguage } from "../../hooks/changeLang";
+import { Link } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -15,15 +17,15 @@ import { useToggle } from "../../hooks/toggle";
 
 const Navigation = props => {
   const [isOpen, toggle] = useToggle();
-  const { t, i18n } = useTranslation();
-  const changeLanguage = lng => {
-    i18n.changeLanguage(lng);
-  };
+  const { t } = useTranslation();
+  const changeLanguage = useNewLanguage();
 
   return (
     <Fragment>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">STORY</NavbarBrand>
+        <NavbarBrand tag={Link} to={"/"}>
+          Story
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

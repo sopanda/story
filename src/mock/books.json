@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "War and Peace",
+    "img": "https://images.penguinrandomhouse.com/cover/9780307806581",
+    "year": 1869,
+    "author": { "firstname": "Leo", "lastname": "Tolstoy" }
+  },
+  {
+    "id": 2,
+    "title": "The Hobbit",
+    "img": "http://satyanash.github.io/img/book-cover-the-hobbit.jpg",
+    "year": 1937,
+    "author": { "firstname": "J.R.R.", "lastname": "Tolkien" }
+  },
+  {
+    "id": 3,
+    "title": "Alice in Wonderland",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/A1I3Qh-4rDL.jpg",
+    "year": 1865,
+    "author": { "firstname": "Lewis", "lastname": "Carroll" }
+  },
+  {
+    "id": 4,
+    "title": "Gone with the Wind",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51vNJUfJ2RL._SX335_BO1,204,203,200_.jpg",
+    "year": 1936,
+    "author": { "firstname": "Margaret", "lastname": "Mitchell" }
+  },
+  {
+    "id": 5,
+    "title": "Heart of Darkness",
+    "img": "https://pimpfreud.files.wordpress.com/2014/05/scan-4.jpg",
+    "year": 1899,
+    "author": { "firstname": "Joseph", "lastname": "Conrad" }
+  },
+  {
+    "id": 6,
+    "title": "The Phantom Tollbooth",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/71r1aM7040L.jpg",
+    "year": 1961,
+    "author": { "firstname": "Norton", "lastname": "Juster" }
+  }
+]
