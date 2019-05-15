@@ -11,8 +11,10 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem
+  DropdownItem,
+  NavItem,
 } from "reactstrap";
+import styles from './Navigation.module.css';
 import { useToggle } from "../../hooks/toggle";
 
 const Navigation = props => {
@@ -22,29 +24,31 @@ const Navigation = props => {
 
   return (
     <Fragment>
-      <Navbar color="light" light expand="md">
+      <Navbar className={styles.NavBar} expand="md">
         <NavbarBrand tag={Link} to={"/"}>
-          Story
+          <span className={styles.BrandLogo}>STORY</span>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                {t("lang")}
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem onClick={() => changeLanguage("pl")}>
-                  Polski
+            <NavItem className={styles.NavigationItem}>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  {t("lang")}
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem className={styles.NavigationDropDownItem} onClick={() => changeLanguage("pl")}>
+                    Polski
                 </DropdownItem>
-                <DropdownItem onClick={() => changeLanguage("en")}>
-                  English
+                  <DropdownItem className={styles.NavigationDropDownItem} onClick={() => changeLanguage("en")}>
+                    English
                 </DropdownItem>
-                <DropdownItem onClick={() => changeLanguage("ru")}>
-                  Pусский
+                  <DropdownItem className={styles.NavigationDropDownItem} onClick={() => changeLanguage("ru")}>
+                    Pусский
                 </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

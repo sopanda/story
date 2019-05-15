@@ -1,0 +1,32 @@
+.NavBar {
+    background-color: #590004 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.NavBar a{
+    color: white;
+}
+.NavBar a:hover {
+    color: white;
+}
+.NavBar a:hover:after{
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0px;
+    bottom: 0px;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+}
+.BrandLogo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.NavigationItem {
+    border: 2px 2px black;
+}
+
+.NavigationDropDownItem:hover {
+    background-color: #590004 !important; 
+    color: white !important;
+}
