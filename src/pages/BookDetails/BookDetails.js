@@ -1,5 +1,5 @@
 import React, { Fragment, memo } from "react";
-import Book from "../../components/Books/Book/Book";
+import BookInfo from "../../components/Books/Book/BookInfo/BookInfo";
 import { useSelector } from "react-redux";
 
 const BookDetails = memo(props => {
@@ -9,7 +9,7 @@ const BookDetails = memo(props => {
     ));
     return (
         <Fragment>
-            <Book item={book} full={true} />
+            <BookInfo item={book} full={true} />
         </Fragment>
     );
 });

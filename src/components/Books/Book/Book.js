@@ -9,6 +9,7 @@ import {
   Button
 } from "reactstrap";
 import { useTranslation } from "react-i18next";
+import style from './Book.module.css';
 
 const Book = ({ item, full }) => {
   const { t } = useTranslation();
@@ -21,7 +22,7 @@ const Book = ({ item, full }) => {
           item.author.lastname
         }`}</CardSubtitle>
         {full && <CardText>{item.description}</CardText>}
-        <Button>{t("read")}</Button>
+        <Button className={style.ReadBtn}>{t("read")}</Button>
       </CardBody>
     </Card>
   );

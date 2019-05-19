@@ -4,41 +4,47 @@
     "title": "War and Peace",
     "img": "https://images.penguinrandomhouse.com/cover/9780307806581",
     "year": 1869,
-    "author": { "firstname": "Leo", "lastname": "Tolstoy" }
+    "author": { "firstname": "Leo", "lastname": "Tolstoy" },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lobortis enim, vel sodales justo. Nullam at erat eget elit faucibus semper. Aenean ullamcorper aliquam purus, at tincidunt justo dignissim a. Maecenas pharetra elit convallis odio pellentesque, eu scelerisque purus rhoncus. Donec aliquam velit nisl, et luctus sapien fermentum nec. Suspendisse potenti. Ut et bibendum nisi. Sed varius rutrum porttitor."
   },
   {
     "id": 2,
     "title": "The Hobbit",
     "img": "http://satyanash.github.io/img/book-cover-the-hobbit.jpg",
     "year": 1937,
-    "author": { "firstname": "J.R.R.", "lastname": "Tolkien" }
+    "author": { "firstname": "J.R.R.", "lastname": "Tolkien" },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est porttitor, suscipit ex at, tempor dui. Praesent tincidunt lacus eu sapien tempus interdum. Quisque eu nisl malesuada justo suscipit molestie. Nam volutpat purus non sapien imperdiet sagittis. Pellentesque ac commodo sem. Etiam aliquam, risus a fringilla aliquet, tellus risus egestas risus, et malesuada quam nisl vel massa. Aliquam in tristique nisi. Quisque ante nisl, porttitor id justo vel, mattis blandit nulla. Nulla arcu nibh, vehicula eu dui in, viverra pharetra nunc. Morbi volutpat imperdiet nulla, ac sollicitudin ligula rutrum bibendum. Proin ut leo eget ligula pellentesque sollicitudin sed ac ante. Suspendisse potenti. Curabitur dapibus ut enim ac suscipit. Pellentesque sed blandit nisl, eu pulvinar ipsum. Suspendisse ultricies in felis eu fringilla. Sed id mi non tellus vehicula imperdiet non non neque. Etiam at mattis turpis, sed molestie quam.Proin nec libero id dolor ultrices convallis in eget urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi quis enim odio. Integer viverra sapien sit amet iaculis consectetur. Maecenas mollis ligula eget vestibulum lacinia. Integer vitae sem nec magna eleifend ornare at eget elit. In ac congue tellus, sit amet lacinia magna.Proin placerat posuere aliquet. Vivamus varius orci at maximus finibus. In hac habitasse platea dictumst. Nullam congue, erat et ullamcorper scelerisque, ex mi tempus nunc, eu iaculis mauris purus sed nisl. Sed ante turpis, efficitur nec posuere eget, lobortis a enim. Donec fermentum commodo quam nec mattis. Maecenas faucibus congue diam, sed aliquam diam commodo consequat. Pellentesque accumsan erat eget imperdiet sollicitudin. Quisque pellentesque tellus vitae lorem tempor imperdiet. Aliquam erat volutpat."
   },
   {
     "id": 3,
     "title": "Alice in Wonderland",
     "img": "https://images-na.ssl-images-amazon.com/images/I/A1I3Qh-4rDL.jpg",
     "year": 1865,
-    "author": { "firstname": "Lewis", "lastname": "Carroll" }
+    "author": { "firstname": "Lewis", "lastname": "Carroll" },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est porttitor, suscipit ex at, tempor dui. Praesent tincidunt lacus eu sapien tempus interdum. Quisque eu nisl malesuada justo suscipit molestie. Nam volutpat purus non sapien imperdiet sagittis. Pellentesque ac commodo sem. Etiam aliquam, risus a fringilla aliquet, tellus risus egestas risus, et malesuada quam nisl vel massa. Aliquam in tristique nisi. Quisque ante nisl, porttitor id justo vel, mattis blandit nulla. Nulla arcu nibh, vehicula eu dui in, viverra pharetra nunc. Morbi volutpat imperdiet nulla, ac sollicitudin ligula rutrum bibendum. Proin ut leo eget ligula pellentesque sollicitudin sed ac ante. Suspendisse potenti. Curabitur dapibus ut enim ac suscipit. Pellentesque sed blandit nisl, eu pulvinar ipsum. Suspendisse ultricies in felis eu fringilla. Sed id mi non tellus vehicula imperdiet non non neque. Etiam at mattis turpis, sed molestie quam."
   },
   {
     "id": 4,
     "title": "Gone with the Wind",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51vNJUfJ2RL._SX335_BO1,204,203,200_.jpg",
     "year": 1936,
-    "author": { "firstname": "Margaret", "lastname": "Mitchell" }
+    "author": { "firstname": "Margaret", "lastname": "Mitchell" },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est porttitor, suscipit ex at, tempor dui. Praesent tincidunt lacus eu sapien tempus interdum. Quisque eu nisl malesuada justo suscipit molestie. Nam volutpat purus non sapien imperdiet sagittis. Pellentesque ac commodo sem. Etiam aliquam, risus a fringilla aliquet, tellus risus egestas risus, et malesuada quam nisl vel massa. Aliquam in tristique nisi. Quisque ante nisl, porttitor id justo vel, mattis blandit nulla. Nulla arcu nibh, vehicula eu dui in, viverra pharetra nunc. Morbi volutpat imperdiet nulla, ac sollicitudin ligula rutrum bibendum."
   },
   {
     "id": 5,
     "title": "Heart of Darkness",
     "img": "https://pimpfreud.files.wordpress.com/2014/05/scan-4.jpg",
     "year": 1899,
-    "author": { "firstname": "Joseph", "lastname": "Conrad" }
+    "author": { "firstname": "Joseph", "lastname": "Conrad" },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est porttitor, suscipit ex at, tempor dui. Praesent tincidunt lacus eu sapien tempus interdum. Quisque eu nisl malesuada justo suscipit molestie. Nam volutpat purus non sapien imperdiet sagittis. Pellentesque ac commodo sem. Etiam aliquam, risus a fringilla aliquet, tellus risus egestas risus, et malesuada quam nisl vel massa. Aliquam in tristique nisi. Quisque ante nisl, porttitor id justo vel, mattis blandit nulla. Nulla arcu nibh, vehicula eu dui in, viverra pharetra nunc. Morbi volutpat imperdiet nulla, ac sollicitudin ligula rutrum bibendum. Proin ut leo eget ligula pellentesque sollicitudin sed ac ante. Suspendisse potenti. Curabitur dapibus ut enim ac suscipit. Pellentesque sed blandit nisl, eu pulvinar ipsum. Suspendisse ultricies in felis eu fringilla. Sed id mi non tellus vehicula imperdiet non non neque. Etiam at mattis turpis, sed molestie quam. Proin nec libero id dolor ultrices convallis in eget urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi quis enim odio. Integer viverra sapien sit amet iaculis consectetur. Maecenas mollis ligula eget vestibulum lacinia. Integer vitae sem nec magna eleifend ornare at eget elit. In ac congue tellus, sit amet lacinia magna. Proin placerat posuere aliquet. Vivamus varius orci at maximus finibus. In hac habitasse platea dictumst. Nullam congue, erat et ullamcorper scelerisque, ex mi tempus nunc, eu iaculis mauris purus sed nisl. Sed ante turpis, efficitur nec posuere eget, lobortis a enim. Donec fermentum commodo quam nec mattis. Maecenas faucibus congue diam, sed aliquam diam commodo consequat. Pellentesque accumsan erat eget imperdiet sollicitudin. Quisque pellentesque tellus vitae lorem tempor imperdiet. Aliquam erat volutpat."
   },
   {
     "id": 6,
     "title": "The Phantom Tollbooth",
     "img": "https://images-na.ssl-images-amazon.com/images/I/71r1aM7040L.jpg",
     "year": 1961,
-    "author": { "firstname": "Norton", "lastname": "Juster" }
+    "author": { "firstname": "Norton", "lastname": "Juster" },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est porttitor, suscipit ex at, tempor dui. Praesent tincidunt lacus eu sapien tempus interdum. Quisque eu nisl malesuada justo suscipit molestie. Nam volutpat purus non sapien imperdiet sagittis. Pellentesque ac commodo sem. Etiam aliquam, risus a fringilla aliquet, tellus risus egestas risus, et malesuada quam nisl vel massa. Aliquam in tristique nisi. Quisque ante nisl, porttitor id justo vel, mattis blandit nulla. Nulla arcu nibh, vehicula eu dui in, viverra pharetra nunc. Morbi volutpat imperdiet nulla, ac sollicitudin ligula rutrum bibendum."
   }
 ]

@@ -26,7 +26,7 @@ const Navigation = props => {
     <Fragment>
       <Navbar className={styles.NavBar} expand="md">
         <NavbarBrand tag={Link} to={"/"}>
-          <span className={styles.BrandLogo}>STORY</span>
+          <span className={styles.BrandLogo}>S T O R Y</span>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

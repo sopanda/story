@@ -1,22 +1,38 @@
 .NavBar {
-    background-color: #590004 !important;
+    background-color: #2274A5 !important;
     font-family: 'Montserrat', sans-serif;
 }
+
+.NavBar:after {
+    position: absolute;
+    content: '';
+    background-color: #E7DFC6;
+    bottom: 0px;
+    left: 0px;
+    height: 7px;
+    width: 100%;
+}
+
 .NavBar a{
+    position: relative;
     color: white;
 }
 .NavBar a:hover {
     color: white;
 }
-.NavBar a:hover:after{
+.NavBar a:before {
     position: absolute;
     display: block;
     content: "";
     left: 0px;
-    bottom: 0px;
-    width: 80%;
+    bottom: 5px;
+    width: 0%;
     height: 2px;
-    background-color: white;
+    background-color: #E7DFC6 ;
+    transition: all 0.3s;
+}
+.NavBar a:hover:before{
+    width: 100%;
 }
 .BrandLogo {
     font-size: 20px;
@@ -27,6 +43,6 @@
 }
 
 .NavigationDropDownItem:hover {
-    background-color: #590004 !important; 
+    background-color: #2274A5 !important; 
     color: white !important;
 }
